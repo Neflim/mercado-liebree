@@ -1,0 +1,617 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+    padding: 20px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo{
+    width: 55%;
+}
+
+header nav{
+    font-size: 12px;
+    display: none;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+header .logo-buscador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .form .input {
+    background-color: #FFF;
+    display: flex;
+    height: 100%;
+    color: #666;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+header .form .input input{
+    padding: 7px 35px 7px 7px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+header .form .submit{
+    height: 100%;
+    background-color: #FFF;
+    color: #666;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 13%;
+    display: flex;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+header .form .submit:hover {
+    background-color: rgb(54, 23, 254);
+    color: white
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+article div.main-article {
+    width: 100%;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+article div.precio-descuento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price {
+    width: 30%;
+}
+
+main section article i{
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+}
+
+article .fa-truck{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+}
+
+.camioncito {
+    display: flex;
+    justify-content: flex-end;
+    height: 0;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.discount{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.description{
+    display: none;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+}
+
+main section article{
+    background-color: #fff;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+header nav ul li{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.div-pagina {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-footer {
+    border-top: 1px solid #ebebeb;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-footer .container{
+    width: 90%;
+}
+
+.sub-footer p {
+    margin: 0;
+    color: gray;
+    padding: 15px 0;
+}
+
+
+.pie-footer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+footer .pie-pagina i.iconFooter {
+    color: blue;
+    font-size: 2.5em;
+}
+
+.pie-pagina p {
+    width: 90%;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.pie-pagina .pie-p {
+    display: flex;
+    justify-content: center;
+}
+
+.pie-pagina {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+}
+
+footer .pie-pagina h2 {
+    color: gray;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+footer .pie-pagina .pie-h2 {
+    display: flex;
+    height: 59.2px;
+    align-items: center;
+}
+
+.pie-pagina i {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-final {
+    margin-bottom: 10px;
+}
+
+.main-footer {
+    padding: 40px 0;
+}
+
+@media screen and (min-width: 361px){
+    
+    header .form {
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+        height: 40px;
+        font-size: 1.5em;
+    }
+
+    header img {
+        height: 7vw;
+    }
+
+    .top-header .logo-buscador{
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+
+    header div.logo{
+        width: 35%;
+    }
+
+    header .form {
+        width: 60%;
+    }
+    
+    header .form .input{
+        width: 100%;
+    }
+    
+    header .form .input input {
+        width: 100%;
+    }
+    
+    header nav {
+        padding-left: 15px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    header nav ul li{
+        font-size: 12px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 5px
+    }
+    
+    header nav ul{
+        font-size: 12px;
+        display: flex;
+        padding: 1px;
+    }
+
+    main section article{
+        background-color: #fff;
+        margin-top: 10px;
+        margin: 5px;
+    }
+
+    article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section article i{
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+        font-weight: normal;
+        display: none;
+    }
+    
+    .price {
+        font-size: 4vw;
+    }
+
+    .discount {
+        font-size: 4vw;
+    }
+
+    article:hover .description:hover .description {
+        display: flex;
+    }
+
+    
+    /* main section div.products{
+        width: 100%;
+        display: flex;
+    } */
+
+    
+
+    .last-visit{
+        width: 100%;
+    }
+
+    div.burger-menu i{
+        display: none;
+    }
+    /* main i{
+        position: relative;
+        left: 0px;
+    } */
+    article .fa-truck{
+        display: flex;
+        align-items: center;
+        height: 35px;
+        width: 35px;
+    }
+
+    
+}
+
+@media screen and (min-width: 769px){
+
+    .radio-perfil {
+        display: flex;
+    }
+    
+    .main-footer {
+        padding: 40px 0;
+    }
+
+    .pie-pagina {
+        width: 95%;
+        margin: auto;
+    }
+
+    .pie-footer {
+        max-width: 960px;;
+    }
+
+    .top-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header div.top-header p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    header .form {
+        width: 65%;
+    }
+
+    header .form .input {
+        width: 100%;
+    }
+
+    header .form .input input {
+        width: 100%;
+    }
+
+    .top-header .logo-buscador{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 65%;
+        margin-left: 3%;
+    }
+
+    header div .logo {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header img {
+        height: 4vw;
+    }
+
+    header nav ul li {
+        margin: 0px 1.2vw;
+    }
+
+    main section article{
+        margin-inline: 2%;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+
+    main section div.products{
+        width: 100%;
+        display: flex;
+    }
+
+    .productsx2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .description {
+        font-size: 16px;
+        font-weight: normal;
+        display: none;
+    }
+
+    .price {
+        font-size: 2.8vw;
+    }
+
+    .discount{
+        font-size: 2.8vw;
+    }
+
+    article:hover .description{
+        display: inline-block;
+    }
+
+    /* article .fa-truck{
+        position: relative;
+        left: 130px;
+        bottom: 25px;
+    } */
+
+    
+
+    header nav{
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    header nav ul{
+        font-size: 12px;
+        display: flex;
+    }
+
+    header nav ul li{
+        font-size: 12px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    /* main section div.products{
+        width: 100%;
+        display: flex;
+    } */
+
+    .last-visit{
+        width: 100%;
+    }
+
+    div.burger-menu i{
+        display: none;
+    }
+
+    article .fa-truck{
+        transition: 1s;
+    }
+    
+    article:hover .fa-truck{
+        transform: rotate(-90deg);
+    }
+
+    .form-p {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    header .form .submit{
+        width: 10%;
+    }
+
+    .form-p {
+        margin-left: 15px;
+        width: 35%;
+    }
+
+    .productsx2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pie-footer {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .pie-pagina p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer .pie-pagina .pie-h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 59.2px;
+        margin-top: 15px;
+    }
+
+    .price {
+        width: 30%;
+        font-size: 1.3vw;
+    }
+    .discount {
+        font-size: 1.3vw;
+    }
+}

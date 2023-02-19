@@ -1,0 +1,353 @@
+.formRegister {
+    display: flex;
+    background-color: #ebebeb;
+    border: 2px solid #ebebeb;
+    border-radius: 5px;
+    height: 80%;
+    width: 75%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 5px;
+}
+
+.checkboxInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.perfilardo {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+
+.formRegister div {
+    margin: 5px 0px;
+}
+
+main .formRegister p {
+    display: none;
+}
+
+main i.icon {
+    display: none;
+}
+
+.boton {
+    margin-inline: auto;
+    width: 100%;
+}
+
+.boton button {
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.boton:hover button {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    margin-top: 15px;
+    width: 65%;
+}
+
+.apellido {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    width: 65%;
+}
+
+.nombreUsuario {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    width: 65%;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+    width: 65%;
+}
+
+.domi {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    width: 65%;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    width: 65%;
+}
+
+.titleCategoria {
+    display: flex;
+    justify-content: center;
+}
+
+.titleFormulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.boton-register {
+    background-color: beige;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+.boton-reset {
+    background-color: beige;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+.contraseña {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    width: 65%;
+}
+
+.terminos {
+    text-align: center;
+    display: flex;
+    width: 90%;
+    height: 30px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameInput-i {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.lastnameInput-i {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.nameUserInput-i {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.dateInput-i {
+    width: 90%;
+}
+
+.domiInput-i {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.mailInput-i {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.contraInput-i {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.nameInput-i input {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.lastnameInput-i input {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.nameUserInput-i input {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.dateInput-i input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.domiInput-i input {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.mailInput-i input {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.contraInput-i input {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.photo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .photoInput-i input {
+    width: 100%
+} */
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 65%;
+}
+
+.terminos input {
+    margin: 0px 10px 0px 0px;
+}
+
+.nameInput {
+    border: 0px;
+    outline: none;
+}
+
+.lastnameInput {
+    border: 0px;
+    outline: none;
+}
+
+.mailInput {
+    border: 0px;
+    outline: none;
+}
+
+.contraInput {
+    border: 0px;
+    outline: none;
+}
+
+.nameUserInput {
+    border: 0px;
+    outline: none;
+}
+
+.domiInput {
+    border: 0px;
+    outline: none;
+}
+
+.radio-padre {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-perfil {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .checkInput {
+    margin-right: 1%;
+} */
+@media screen and (min-width: 769px) {
+
+    .radio-padre {
+        display: flex;
+        width: 70%;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .radio-perfil {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 956px){
+    
+    .checkboxInput {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .categories {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+    }
+    
+}
